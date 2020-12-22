@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Home - Layout2</title>
+</head>
+<body>
+
+  <div class="centro">
+    <header>
+      <h1>Topo</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Link1</a></li>
+        <li><a href="#">Link2</a></li>
+        <li><a href="#">Link3</a></li>
+        <li><a href="#">Link4</a></li>
+        <li><a href="#">Link5</a></li>
+      </ul>
+    </nav>
+
+    <div class="conteudo">
+      <section>
+        <p>Coluna de navegação</p>
+        <ul>
+          <li><a href="#">Link1</a></li>
+          <li><a href="#">Link2</a></li>
+          <li><a href="#">Link3</a></li>
+          <li><a href="#">Link4</a></li>
+          <li><a href="#">Link5</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <form action="/contato" method="POST">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Insira seu nome completo">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Insira seu endereço de e-mail">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" name="telefone" id="telefone" placeholder="Insira seu telefone">
+          <label for="mensagen">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" placeholder="Insira sua mensagem..."></textarea>
+          <input type="checkbox" name="termo" value="aceito">
+          <label for="termo">Eu concordo com os <a href="#">termos e condições</a></label>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+
+      <section>
+        <p>Coluna de apoio</p>
+      </section>
+    </div>
+
+    <footer>
+      <p>Rodapé</p>
+    </footer>
+  </div>
+</body>
+</html>

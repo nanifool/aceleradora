@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+
+body {
+  background-color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  background: rgb(59, 133, 251);
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin: 6px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 750px;
+  border-collapse: collapse;
+}
+
+td, tr {
+  padding: 6px;
+}
+
+thead {
+  background: rgb(255, 136, 0);
+  font-weight: bold;
+}
+
+.passou {
+  background: rgb(199, 255, 199);
+}
+
+.reprovou {
+  background: rgb(224, 126, 126);
+}
